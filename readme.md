@@ -5,21 +5,21 @@ The reason behind this project was that I wanted to watch a 3D movie via the Ple
 
 When the app is run, it will search the local network for a Bravia TV via a SSDP request. When a TV is found it will query it for its system information and then another query for all the remote control commands that it supports. When this is done, you can simply enter the command in the console to send it to the TV.
 
-Projects on which I copied/borrowed implementation ideas from:
-https://github.com/breunigs/bravia-auth-and-remote
-https://github.com/aparraga/braviarc
-https://github.com/bunk3r/braviapy
+Projects on which I copied/borrowed implementation ideas from:  
+https://github.com/breunigs/bravia-auth-and-remote  
+https://github.com/aparraga/braviarc  
+https://github.com/bunk3r/braviapy 
 
 Note: This has been tested on Windows 10 (Python 2.7 and 3.5) and on Debian (Python 2.7) with a Sony Bravia TV (Model KDL-55W800C).
 
 ## Set Up 
 This project relies on using a shared key which is setup manually on the TV one time.
 
-Instructions to setup PSK (Pre-Shared Key) on TV:
-1. Navigate to: [Settings] -> [Network] -> [Home Network Setup] -> [IP Control]
-2. Set [Authentication] to [Normal and Pre-Shared Key]
-3. There should be a new menu entry [Pre-Shared Key]. Set it to '000'
-Note: To modify the PSK in this console enter 'set option psk <value>'
+Instructions to setup PSK (Pre-Shared Key) on TV:  
+1. Navigate to: [Settings] -> [Network] -> [Home Network Setup] -> [IP Control]  
+2. Set [Authentication] to [Normal and Pre-Shared Key]  
+3. There should be a new menu entry [Pre-Shared Key]. Set it to '000'  
+Note: To modify the PSK in this console enter 'set option psk <value>' 
 
 ## Usage
 
