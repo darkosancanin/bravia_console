@@ -37,3 +37,7 @@ Note: To modify the PSK in this console enter 'set option psk <value>'
 
 ![Show Info](https://raw.githubusercontent.com/darkosancanin/bravia_console/master/screenshots/show_info.png)
 
+![Show Options](https://raw.githubusercontent.com/darkosancanin/bravia_console/master/screenshots/show_options.png)
+
+![Set Options](https://raw.githubusercontent.com/darkosancanin/bravia_console/master/screenshots/set_options.png)
+
