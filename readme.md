@@ -25,7 +25,11 @@ Note: To modify the PSK in this console enter 'set option psk <value>'
 
 `python bravia_console.py`
 
+`python bravia_console.py -i 192.168.0.50 -c volumeup`
+
 ![Banner](https://raw.githubusercontent.com/darkosancanin/bravia_console/master/screenshots/banner.png)
+
+![Usage](https://raw.githubusercontent.com/darkosancanin/bravia_console/master/screenshots/usage.png)
 
 ![Help](https://raw.githubusercontent.com/darkosancanin/bravia_console/master/screenshots/help.png)
 
